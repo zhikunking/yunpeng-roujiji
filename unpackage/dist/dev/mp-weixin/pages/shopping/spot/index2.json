@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "询价详情",
+  "usingComponents": {
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "shopp-list": "/pages/shopping/shopp-list",
+    "shopp-nav-two": "/pages/shopping/shoppNavTwo"
+  }
+}

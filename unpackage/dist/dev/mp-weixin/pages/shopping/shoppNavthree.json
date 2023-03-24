@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "u-dropdown-menu": "/uni_modules/uview-ui/components/u-dropdown-menu/u-dropdown-menu",
+    "u-dropdown-item": "/uni_modules/uview-ui/components/u-dropdown-item/u-dropdown-item",
+    "u-area": "/uni_modules/uview-ui/components/u-area/u-area",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell"
+  },
+  "component": true
+}

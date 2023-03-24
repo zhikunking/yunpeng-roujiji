@@ -1,0 +1,24 @@
+
+.shopp-information-text{
+	width: 670rpx;
+	height: 592rpx;
+	font-size: 30rpx;
+	font-family: PingFang SC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #333333;
+	line-height: 44rpx;
+	padding: 20rpx 40rpx 40rpx 40rpx;
+}
+.shopp-information-text-t1{
+	text-indent: 2em;
+}
+.shopp-information-img{
+	margin-top: 120rpx;
+	margin-left: 40rpx;
+	margin-bottom: 40rpx;
+}
+.shopp-information-img1{
+	width: 670rpx;
+	height: 400rpx;
+}
+

@@ -1,0 +1,1 @@
+<view class="search"><view class="search-top"><image class="search-top-img" src="../../static/img/search2.png" mode></image><input class="search-top-input" type="text" placeholder="搜索商品"/><image class="search-top-img2" src="../../static/img/x.png" mode></image><button class="search-top-btn">搜索</button></view><shopp-list vue-id="353c4636-1" bind:__l="__l"></shopp-list></view>

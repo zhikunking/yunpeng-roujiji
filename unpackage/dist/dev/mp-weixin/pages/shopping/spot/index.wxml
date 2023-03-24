@@ -1,0 +1,1 @@
+<view class="spot"><u-tabs vue-id="2af27dc3-1" list="{{list6}}" bind:__l="__l" vue-slots="{{['default']}}"><shopp-nav vue-id="{{('2af27dc3-2')+','+('2af27dc3-1')}}" bind:__l="__l"></shopp-nav><shopp-list vue-id="{{('2af27dc3-3')+','+('2af27dc3-1')}}" bind:__l="__l"></shopp-list></u-tabs></view>

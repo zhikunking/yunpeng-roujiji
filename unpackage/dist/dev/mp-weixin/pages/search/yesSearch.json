@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "搜索",
+  "usingComponents": {
+    "shopp-list": "/pages/shopping/shopp-list",
+    "my-tousu": "/pages/tousu/fztousu"
+  }
+}

@@ -1,0 +1,551 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+		// "autoscan": true,
+		// "custom": {
+		// 			// uni-ui 规则如下配置
+		// 			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		// 		}
+		},	 
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "肉集集",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/phone/index2",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/phone/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/partner/index",
+			"style": {
+				"navigationBarTitleText": "渠道合伙人"
+			}
+		},
+		{
+			"path": "pages/aboutUs/aboutRoujiji",
+			"style": {
+				"navigationBarTitleText": "关于肉集集"
+			}
+		},
+		{
+			"path": "pages/privacyAgreement/privacyAgreement",
+			"style": {
+				"navigationBarTitleText": "隐私协议"
+			}
+		},
+		{
+			"path": "pages/serviceAgreement/serviceAgreement",
+			"style": {
+				"navigationBarTitleText": "服务协议"
+			}
+		},
+		{
+			"path": "pages/aboutUs/aboutUs",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/ChangePassword/index",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/my/userManage/index",
+			"style": {
+				"navigationBarTitleText": "账号管理"
+			}
+		},
+		{
+			"path": "pages/my/setup/index",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/CertificationReview/NoCertificationReview",
+			"style": {
+				"navigationBarTitleText": "认证审核"
+			}
+		},
+		{
+			"path": "pages/CertificationReview/YesCertificationReview",
+			"style": {
+				"navigationBarTitleText": "认证审核"
+			}
+		},
+		{
+			"path": "pages/CertificationReview/CertificationReview",
+			"style": {
+				"navigationBarTitleText": "认证审核"
+			}
+		},
+		{
+			"path": "pages/commercialCertification/CommercialCertification-active",
+			"style": {
+				"navigationBarTitleText": "工商认证"
+			}
+		},
+		{
+			"path": "pages/commercialCertification/CommercialCertification",
+			"style": {
+				"navigationBarTitleText": "工商认证"
+			}
+		},
+		{
+			"path": "pages/CertificationManagement/RealAuthentication-active",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		},
+		{
+			"path": "pages/CertificationManagement/RealAuthentication",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		},
+		{
+			"path": "pages/CertificationManagement/index",
+			"style": {
+				"navigationBarTitleText": "认证管理"
+			}
+		},
+		{
+			"path": "pages/myfootmark/index",
+			"style": {
+				"navigationBarTitleText": "我的足迹"
+			}
+		},
+		{
+			"path": "pages/collect/shoppCollect",
+			"style": {
+				"navigationBarTitleText": "商品收藏"
+			}
+		},
+		{
+			"path": "pages/inquiryDetails/quotedDetails-active",
+			"style": {
+				"navigationBarTitleText": "询价详情"
+			}
+		},
+		{
+			"path": "pages/inquiryDetails/quotedDetails",
+			"style": {
+				"navigationBarTitleText": "询价详情"
+			}
+		},
+		{
+			"path": "pages/inquiryDetails/index",
+			"style": {
+				"navigationBarTitleText": "询价详情"
+			}
+		},
+		{
+			"path": "pages/myEnquiry/index",
+			"style": {
+				"navigationBarTitleText": "我的询价"
+			}
+		},
+		{
+			"path": "pages/search/index3",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/orderDetails/index3",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/orderDetails/index2",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/orderDetails/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/faao/index",
+			"style": {
+				"navigationBarTitleText": "发票"
+			}
+		},
+		{
+			"path": "pages/myOrder/index",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/userInformation/index",
+			"style": {
+				"navigationBarTitleText": "用户资料"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/notification/index",
+			"style": {
+				"navigationBarTitleText": "询价通知"
+			}
+		},
+		{
+			"path": "pages/myMessage/myMessage",
+			"style": {
+				"navigationBarTitleText": "我的消息"
+			}
+		},
+		{
+			"path": "pages/help/index",
+			"style": {
+				"navigationBarTitleText": "收到的赞"
+			}
+		},
+		{
+			"path": "pages/chat/yesCaht",
+			"style": {
+				"navigationBarTitleText": "收到的回复"
+			}
+		},
+		{
+			"path": "pages/chat/index",
+			"style": {
+				"navigationBarTitleText": "公司名称"
+			}
+		},
+		{
+			"path": "pages/SendInquiry/index",
+			"style": {
+				"navigationBarTitleText": "发询价"
+			}
+		},
+		{
+			"path": "pages/InquirySucceeded/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/ProcurementNeeds/index",
+			"style": {
+				"navigationBarTitleText": "采购需求"
+			}
+		},
+		{
+			"path": "pages/enquiryShopp/index",
+			"style": {
+				"navigationBarTitleText": "导入询价商品"
+			}
+		},
+		{
+			"path": "pages/card/index",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/billInformation/index",
+			"style": {
+				"navigationBarTitleText": "填写发票信息"
+			}
+		},
+		{
+			"path": "pages/address/addressManage",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"path": "pages/address/addAddress",
+			"style": {
+				"navigationBarTitleText": "添加地址"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/blacklist/blacklistindex",
+			"style": {
+				"navigationBarTitleText": "黑名单"
+			}
+		},
+		{
+			"path": "pages/tousu/mytousu",
+			"style": {
+				"navigationBarTitleText": "我的投诉"
+			}
+		},
+		{
+			"path": "pages/information/tousuinformation",
+			"style": {
+				"navigationBarTitleText": "投诉详情"
+			}
+		},
+		{
+			"path": "pages/tousu/index",
+			"style": {
+				"navigationBarTitleText": "投诉"
+			}
+		},
+		{
+			"path": "pages/search/index2",
+			"style": {
+				"navigationBarTitleText": "客户服务"
+			}
+		},
+		{
+			"path": "pages/announcement/index",
+			"style": {
+				"navigationBarTitleText": "公告"
+			}
+		},
+		{
+			"path": "pages/information/shoppInformation",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/shopping/spot/index2",
+			"style": {
+				"navigationBarTitleText": "询价详情"
+			}
+		},
+		{
+			"path": "pages/enquiry/InquiryDetails/index",
+			"style": {
+				"navigationBarTitleText": "询价详情"
+			}
+		},
+		{
+			"path": "pages/buy/Buyda/index",
+			"style": {
+				"navigationBarTitleText": "求购大厅"
+			}
+		},
+		{
+			"path": "pages/submit/index5",
+			"style": {
+				"navigationBarTitleText": "提交订单"
+			}
+		},
+		{
+			"path": "pages/submit/index4",
+			"style": {
+				"navigationBarTitleText": "提交订单"
+			}
+		},
+		{
+			"path": "pages/submit/index2",
+			"style": {
+				"navigationBarTitleText": "提交订单"
+			}
+		},
+		{
+			"path": "pages/submit/index",
+			"style": {
+				"navigationBarTitleText": "提交订单"
+			}
+		},
+		{
+			"path": "pages/submit/index3",
+			"style": {
+				"navigationBarTitleText": "提交订单"
+			}
+		},
+		{
+			"path": "pages/shopping/production",
+			"style": {
+				"navigationBarTitleText": "生产国家"
+			}
+		},
+		{
+			"path": "pages/shopping/spot/index",
+			"style": {
+				"navigationBarTitleText": "现货商场",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/shopping/spot/intoShopList",
+			"style": {
+				"navigationBarTitleText": "现货商场",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/shopping/shopp/shoppSheet",
+			"style": {
+				"navigationBarTitleText": "现货商场",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/shopping/shopp/shopp",
+			"style": {
+				"navigationBarTitleText": "期货商场"
+			}
+		},
+		{
+			"path": "pages/search/yesSearchCorporation",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/search/yesSearch",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/shopp/addShopp",
+			"style": {
+				"navigationBarTitleText": "添加商品"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/login/status",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/login/logon",
+			"style": {
+				"navigationBarTitleText": ""
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/index2",
+			"style": {
+				"navigationBarTitleText": ""
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/logon2",
+			"style": {
+				"navigationBarTitleText": ""
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/noPassword",
+			"style": {
+				"navigationBarTitleText": ""
+				// "navigationStyle": "custom"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#C1C1C1",
+		"selectedColor": "#3891ED",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/img/home1.png",
+				"selectedIconPath": "static/img/home2.png"
+			},
+			{
+				"pagePath": "pages/card/index",
+				"text": "购物车",
+				"iconPath": "static/img/card1.png",
+				"selectedIconPath": "static/img/card2.png"
+			},
+			{
+				"pagePath": "pages/SendInquiry/index",
+				"text": "发询价",
+				"iconPath": "static/img/jiage1.png",
+				"selectedIconPath": "static/img/jiage1.png"
+			},
+			{
+				"pagePath": "pages/myMessage/myMessage",
+				"text": "消息",
+				"iconPath": "static/img/xiaoxi1.png",
+				"selectedIconPath": "static/img/xiaoxi2.png"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconPath": "static/img/myVue1.png",
+				"selectedIconPath": "static/img/myVue2.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			// "van-button": "/wxcomponents/vant/button/index",
+			// "van-tab": "/wxcomponents/vant/tab/index",
+			// "van-tabs": "/wxcomponents/vant/tabs/index",
+			// "van-cell-group": "/wxcomponents/vant/cell-group/index",
+			// "van-cell": "/wxcomponents/vant/cell/index",
+			// "van-image": "/wxcomponents/vant/image/index",
+			// "van-icon": "/wxcomponents/vant/icon/index",
+			// "van-nav-bar": "/wxcomponents/vant/nav-bar/index",
+			// "van-tag": "/wxcomponents/vant/tag/index",
+			// "van-divider": "/wxcomponents/vant/divider/index",
+			// "van-field": "/wxcomponents/vant/field/index",
+			// "van-dialog": "/wxcomponents/vant/dialog/index",
+			// "van-dropdown-menu": "/wxcomponents/vant/dropdown-menu/index",
+			// "van-dropdown-item": "/wxcomponents/vant/dropdown-item/index",
+			// "van-sticky": "/wxcomponents/vant/sticky/index",
+			// "van-radio": "/wxcomponents/vant/radio/index",
+			// "van-radio-group": "/wxcomponents/vant/radio-group/index",
+			// "van-search": "/wxcomponents/vant/search/index",
+			// "van-uploader": "/wxcomponents/vant/uploader/index",
+			//  "van-calendar": "/wxcomponents/vant/calendar/index",
+			//  "van-action-sheet":"/wxcomponents/vant/action-sheet/index",
+			//  "van-stepper":"/wxcomponents/vant/stepper/index",
+			//  "van-popup":"/wxcomponents/vant/popup/index"
+		}
+	},
+	"uniIdRouter": {}
+}

@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/blacklist/blacklistindex",
+    "pages/tousu/mytousu",
+    "pages/information/tousuinformation",
+    "pages/tousu/index",
+    "pages/search/index2",
+    "pages/information/shoppInformation",
+    "pages/shopping/spot/index2",
+    "pages/enquiry/InquiryDetails/index",
+    "pages/buy/Buyda/index",
+    "pages/submit/index",
+    "pages/shopping/production",
+    "pages/shopping/spot/index",
+    "pages/shopping/spot/intoShopList",
+    "pages/shopping/shopp/shoppSheet",
+    "pages/shopping/shopp/shopp",
+    "pages/search/yesSearchCorporation",
+    "pages/search/yesSearch",
+    "pages/search/index",
+    "pages/login/status",
+    "pages/login/logon",
+    "pages/login/index2",
+    "pages/login/logon2",
+    "pages/login/noPassword"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": ""
+    }
+  },
+  "usingComponents": {}
+}

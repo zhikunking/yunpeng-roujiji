@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "求购大厅",
+  "usingComponents": {
+    "shopp-list": "/pages/shopping/shopp-list",
+    "shopp-nav-three": "/pages/shopping/shoppNavthree"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="spot"><shopp-nav-three vue-id="30e06a52-1" bind:__l="__l"></shopp-nav-three><shopp-list vue-id="30e06a52-2" bind:__l="__l"></shopp-list></view>
